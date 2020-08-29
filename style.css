@@ -1,0 +1,69 @@
+body{
+font-size: 1.125rem;
+color: #707070;
+}
+
+/* Typography*/
+h1{
+    font-size: 3rem;
+    color: #212614;
+    text-align: center;
+}
+
+h1 span{
+    color: #b7832f;
+   
+}
+p{
+    margin-top: 0em;
+}
+
+.container{
+    max-width: 1080px;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.img{
+    max-width: 100%;
+}
+.columns{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 1em 0em;
+}
+ @media (max-width:600px){
+     .columns{
+         flex-direction: column;
+         
+        }
+ }
+
+ 
+
+
+.col-1{
+    width: 20%;
+}
+
+.col-2{
+   width: 45%;
+}
+
+.col-3{
+    width:70%;
+}
+
+@media (max-width:600px){
+    .col-1,
+    .col-2,
+    .col-3{ width: 86%;
+       }
+    }
+
+.col-bg{
+ background: #212614;
+    color: #fff;
+    padding: 1em;
+}
